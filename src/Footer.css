@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    padding-top: 10px;
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    font-size: .7em;
+    align-items: center;
+    z-index: 999;
+}
+
+.footer_copyrightIcon {
+    font-size: 1em !important;
+    padding-right: .3em;
+}
+
+.footer > a {
+    text-decoration: none;
+    color: #0177b7;
+    padding-left: .6em;
+}

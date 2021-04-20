@@ -14,6 +14,7 @@ import PeopleIcon from '@material-ui/icons/People';
 import LocalOfferIcon from '@material-ui/icons/LocalOffer';
 import EmailRow from './EmailRow';
 import { db } from './firebase';
+import Footer from './Footer';
 
 function EmailList() {
 
@@ -76,7 +77,11 @@ function EmailList() {
                         description={message}
                         time={new Date(timestamp?.seconds * 1000).toUTCString()} />
                 ))}
-                        
+
+            </div>
+
+            <div className="emailList_footer">
+                <Footer />
             </div>
         </div>
     )

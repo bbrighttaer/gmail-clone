@@ -1,10 +1,12 @@
-import { CircularProgress } from "@material-ui/core"
+import { CircularProgress } from "@material-ui/core";
 import './Loading.css'
 
 function Loading() {
     return (
-        <div className="loading">
-            <CircularProgress />
+        <div>
+            <div className="loading">
+                <CircularProgress />
+            </div>
         </div>
     )
 }
